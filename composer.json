@@ -42,8 +42,8 @@
     "require": {
         "laravel/framework": "^11.0 || ^12.0",
         "illuminate/support": "^11.0 || ^12.0",
-        "statamic/cms": "^5.0.0",
-        "marcorieser/statamic-livewire": "^5.0"
+        "statamic/cms": "^6.0.0",
+        "marcorieser/statamic-livewire": "dev-statamic-6"
     },
     "config": {
         "allow-plugins": {
@@ -56,5 +56,11 @@
         "phpunit/phpunit": "^11.0|^12.0",
         "laravel/pint": "^1.15",
         "spatie/laravel-ray": "^1.0"
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/marcorieser/statamic-livewire.git"
+        }
+    ]
 }
